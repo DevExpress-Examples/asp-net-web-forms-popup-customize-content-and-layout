@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Popup Control for ASP.NET Web Forms - How to customize a pop-up window's content and layout
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e3049/)**
+**[[Run Online]](https://codecentral.devexpress.com/128565198/)**
 <!-- run online end -->
 
 This example demonstrates how to use the control's client-side funstionality to specify a pop-up window's position and content.
