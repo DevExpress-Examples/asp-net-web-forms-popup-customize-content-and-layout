@@ -1,24 +1,32 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128565198/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3049)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-<!-- default file list end -->
-# How to show ASPxPopupControl at a specified position with a custom content and header text
+# Popup Control for ASP.NET Web Forms - How to customize a pop-up window's content and layout
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e3049/)**
 <!-- run online end -->
 
+This example demonstrates how to use the control's client-side funstionality to specify a pop-up window's position and content.
 
-<p>The example illustrates how to show ASPxPopupControl at a specified position with a custom ContentHtml and HeaderText. The following ASPxPopupControl's client-side API is used:<br />
-<a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxPopupControlScriptsASPxClientPopupControl_SetContentHTMLtopic"><u>ASPxClientPopupControl.SetContentHtml</u></a><br />
-<a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxPopupControlScriptsASPxClientPopupControl_SetHeaderTexttopic"><u>ASPxClientPopupControl.SetHeaderText</u></a><br />
-<a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxPopupControlScriptsASPxClientPopupControl_ShowAtPostopic"><u>ASPxClientPopupControl.ShowAtPos</u></a></p>
+![Customize Popup Window](customizePopupWindow.png)
 
-<br/>
+## Overview
 
+Use the following client-side methods:
 
+* [SetContentHtml](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.SetContentHtml(html)) - specifies the window's content.
+* [SetHeaderText](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.SetHeaderText(value)) - specifies the text of the window's header.
+* [ShowAtPos](https://docs.devexpress.com/AspNet/js-ASPxClientPopupControlBase.ShowAtPos(x-y)) - specifies the window's position.
+
+```js
+function ShowPopup(headerText, contentText, positionX, positionY) {
+    popup.SetHeaderText(headerText);
+    popup.SetContentHtml(contentText);
+    popup.ShowAtPos(positionX, positionY);
+}
+```
+
+## Files to Review
+
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+
+## Documentation
+
+* [Popup Conetol](https://docs.devexpress.com/AspNet/3582/components/docking-and-popups/popup-control)
