@@ -29,4 +29,4 @@ function ShowPopup(headerText, contentText, positionX, positionY) {
 
 ## Documentation
 
-* [Popup Conetol](https://docs.devexpress.com/AspNet/3582/components/docking-and-popups/popup-control)
+* [Popup Control](https://docs.devexpress.com/AspNet/3582/components/docking-and-popups/popup-control)
