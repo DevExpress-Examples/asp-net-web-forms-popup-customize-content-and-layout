@@ -9,9 +9,6 @@
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
 <!-- default file list end -->
 # How to show ASPxPopupControl at a specified position with a custom content and header text
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128565198/)**
-<!-- run online end -->
 
 
 <p>The example illustrates how to show ASPxPopupControl at a specified position with a custom ContentHtml and HeaderText. The following ASPxPopupControl's client-side API is used:<br />
